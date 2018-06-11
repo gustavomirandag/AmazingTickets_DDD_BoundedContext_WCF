@@ -15,7 +15,8 @@ namespace AmazingTickets.Data.Repositories
         public void Enqueue(Ticket ticket)
         {
             tickets.Enqueue(ticket);
-            base.Add(ticket);        }
+            base.Add(ticket);
+        }
 
         public Ticket Dequeue()
         {
